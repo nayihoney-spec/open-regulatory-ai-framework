@@ -43,11 +43,11 @@ Qualified human review
 
 ## Jurisdiction packages
 
-- `jurisdictions/cn-nmpa/`
-- `jurisdictions/us-fda/`
-- `jurisdictions/eu-ema/`
+The umbrella repository contains all three jurisdiction packages and each region is also available as an independent public repository:
 
-The three regional repositories can also be used independently.
+- 🇨🇳 [China / NMPA](https://github.com/nayihoney-spec/open-regulatory-ai-nmpa) — local folder: `jurisdictions/cn-nmpa/`
+- 🇺🇸 [United States / FDA](https://github.com/nayihoney-spec/open-regulatory-ai-fda) — local folder: `jurisdictions/us-fda/`
+- 🇪🇺 [European Union / EMA](https://github.com/nayihoney-spec/open-regulatory-ai-eu-ema) — local folder: `jurisdictions/eu-ema/`
 
 ## Open-core boundary
 
@@ -71,7 +71,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Regulatory corrections should include an
 
 ## Support
 
-This project is free to use. See [SUPPORT.md](SUPPORT.md). A GitHub Sponsors configuration for `@nayihoney-spec` is prepared in `.github/FUNDING.yml`; GitHub Sponsors onboarding must be active for payments to work.
+This project is free to use. See [SUPPORT.md](SUPPORT.md). A GitHub Sponsors configuration for `@nayihoney-spec` is included in `.github/FUNDING.yml`; the Sponsor button becomes functional after GitHub Sponsors onboarding/approval is active for the maintainer.
 
 ## License
 
