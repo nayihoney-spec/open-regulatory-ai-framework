@@ -1,0 +1,20 @@
+version: "0.1.0"
+jurisdiction: US
+authorities: ["FDA", "CDER", "CBER", "ORA", "Office of Inspections and Investigations"]
+product_terms:
+  general: ["drug", "pharmaceutical", "drug product", "drug substance"]
+  chemical: ["small molecule", "drug substance", "API", "finished pharmaceutical"]
+  biologic: ["biological product", "biologic", "therapeutic protein", "monoclonal antibody"]
+  blood: ["blood product", "plasma-derived product", "human plasma", "immunoglobulin", "coagulation factor"]
+  vaccine: ["vaccine", "preventive vaccine"]
+  cell_gene: ["cell therapy", "gene therapy", "HCT/P", "CGT"]
+document_terms: ["FD&C Act", "PHS Act", "21 CFR", "Federal Register", "Guidance for Industry", "Compliance Program", "Q&A", "Warning Letter", "Form FDA 483", "recall"]
+baseline_refs:
+  - "21 CFR Part 11"
+  - "21 CFR Part 210"
+  - "21 CFR Part 211"
+  - "21 CFR Parts 600-680"
+  - "21 CFR Part 1271"
+rules:
+  - "Treat Form FDA 483 observations and Warning Letters as inspection/enforcement evidence, not generally applicable regulations."
+  - "For biologics, evaluate applicable drug CGMP plus biologics-specific requirements rather than assuming one replaces the other."
