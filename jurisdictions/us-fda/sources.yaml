@@ -1,0 +1,35 @@
+version: "0.1.0"
+jurisdiction: US
+sources:
+  - name: U.S. Food and Drug Administration
+    authority: FDA
+    url: https://www.fda.gov/
+    role: primary_regulator
+  - name: FDA Regulatory Information
+    authority: FDA
+    url: https://www.fda.gov/regulatory-information
+    role: regulatory_navigation
+  - name: FDA Guidance Document Search
+    authority: FDA
+    url: https://www.fda.gov/regulatory-information/search-fda-guidance-documents
+    role: official_guidance_search
+  - name: eCFR Title 21 Part 210
+    authority: Office of the Federal Register / GPO eCFR
+    url: https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-210
+    role: cgmp_general
+  - name: eCFR Title 21 Part 211
+    authority: Office of the Federal Register / GPO eCFR
+    url: https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211
+    role: cgmp_finished_pharmaceuticals
+  - name: FDA Biologics Regulatory Information
+    authority: FDA CBER
+    url: https://www.fda.gov/vaccines-blood-biologics/guidance-compliance-regulatory-information-biologics
+    role: biologics_blood_vaccines
+  - name: FDA Warning Letters
+    authority: FDA
+    url: https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-actions-and-activities/warning-letters
+    role: enforcement_examples
+status_rules:
+  - "Guidance generally describes FDA's current thinking and is not itself a binding regulation unless binding requirements are independently cited."
+  - "Warning Letters are enforcement correspondence and must not be generalized as universal binding rules."
+  - "Check current eCFR text and applicable product-specific provisions."
