@@ -1,0 +1,19 @@
+version: "0.1.0"
+jurisdiction: EU
+authorities: ["European Commission", "EMA", "CHMP", "CAT", "PRAC", "GMP/GDP Inspectors Working Group"]
+product_terms:
+  general: ["medicinal product", "medicinal products for human use"]
+  chemical: ["chemical medicinal product", "active substance", "finished medicinal product"]
+  biologic: ["biological medicinal product", "biologic", "monoclonal antibody"]
+  blood: ["plasma-derived medicinal product", "blood-derived medicinal product", "human plasma"]
+  vaccine: ["vaccine", "immunological medicinal product"]
+  atmp: ["advanced therapy medicinal product", "ATMP", "gene therapy medicinal product", "somatic cell therapy medicinal product"]
+document_terms: ["Regulation", "Directive", "Delegated Regulation", "Implementing Regulation", "EudraLex", "EU GMP", "Annex", "Guideline", "Questions and Answers", "Reflection paper", "Concept paper", "consultation"]
+gmp_refs:
+  - "EudraLex Volume 4 Part I"
+  - "EudraLex Volume 4 Part II"
+  - "EudraLex Volume 4 Annex 1"
+  - "EudraLex Volume 4 Annex 11"
+  - "EudraLex Volume 4 Annex 15"
+  - "EudraLex Volume 4 Annex 16"
+  - "EudraLex Volume 4 Part IV (ATMP-specific GMP)"
