@@ -1,6 +1,7 @@
 version: "0.1.0"
 jurisdiction: US
-authorities: ["FDA", "CDER", "CBER", "ORA", "Office of Inspections and Investigations"]
+authorities: ["FDA", "CDER", "CBER", "Office of Inspections and Investigations", "OII"]
+historical_authority_aliases: ["Office of Regulatory Affairs", "ORA"]
 product_terms:
   general: ["drug", "pharmaceutical", "drug product", "drug substance"]
   chemical: ["small molecule", "drug substance", "API", "finished pharmaceutical"]
@@ -16,5 +17,6 @@ baseline_refs:
   - "21 CFR Parts 600-680"
   - "21 CFR Part 1271"
 rules:
+  - "Office of Regulatory Affairs (ORA) is retained only as a historical retrieval alias; FDA renamed the field operations organization to the Office of Inspections and Investigations (OII) effective October 1, 2024."
   - "Treat Form FDA 483 observations and Warning Letters as inspection/enforcement evidence, not generally applicable regulations."
   - "For biologics, evaluate applicable drug CGMP plus biologics-specific requirements rather than assuming one replaces the other."
