@@ -1,0 +1,6 @@
+interface:
+  display_name: "Open Regulatory AI Framework"
+  short_description: "Cross-jurisdiction pharmaceutical regulatory research"
+  default_prompt: "Use $open-regulatory-ai-framework to compare pharmaceutical requirements across jurisdictions using current official sources."
+policy:
+  allow_implicit_invocation: true

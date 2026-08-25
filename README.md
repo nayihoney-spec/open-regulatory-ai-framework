@@ -78,3 +78,12 @@ This project is free to use. See [SUPPORT.md](SUPPORT.md). A GitHub Sponsors con
 Knowledge content: CC BY 4.0.  
 Tools under `tools/`: Apache-2.0.  
 See [LICENSE.md](LICENSE.md).
+
+
+## Use as a ChatGPT/Codex skill
+
+This repository is Skill-enabled. `SKILL.md` defines cross-jurisdiction routing, required reference loading, official-source research, evidence handling, and safety constraints. `agents/openai.yaml` enables both explicit and implicit invocation.
+
+After installing the repository as a Skill, invoke `$open-regulatory-ai-framework` for multi-jurisdiction comparisons or regulatory questions where the applicable jurisdiction is not yet clear. For one explicit jurisdiction, prefer the corresponding NMPA, FDA, or EU/EMA regional Skill.
+
+The Skill does not replace qualified regulatory, legal, quality, validation, submission, or patient-safety review.
