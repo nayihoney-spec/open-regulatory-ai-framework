@@ -1,0 +1,19 @@
+version: "0.1.0"
+jurisdiction: EU
+sources:
+  - name: European Medicines Agency
+    authority: EMA
+    url: https://www.ema.europa.eu/
+    role: medicines_scientific_regulatory_network
+  - name: European Commission EudraLex Volume 4
+    authority: European Commission
+    url: https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-4_en
+    role: eu_gmp
+  - name: EUR-Lex
+    authority: European Union
+    url: https://eur-lex.europa.eu/
+    role: eu_law
+status_rules:
+  - "EU medicines regulation is not synonymous with EMA-only content; identify the competent legal source."
+  - "Check Regulation/Directive legal basis separately from EudraLex GMP guidance and EMA scientific guidance."
+  - "Check current operation date, amendments, replacement instruments, consultation status, and transitional provisions."
